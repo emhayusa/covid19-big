@@ -16,7 +16,7 @@ Installation right from the source tree (or via pip from PyPI)::
 
     $ python setup.py install
 
-    $ pip install covid19
+    $ pip install covid19-big
 
 Now, the ``covid19`` command is available::
 
