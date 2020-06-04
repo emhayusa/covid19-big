@@ -1,0 +1,5 @@
+build/*
+dist/*
+covid19.egg-info/*
+___pycache__/*
+covid19/__pycache__/*
