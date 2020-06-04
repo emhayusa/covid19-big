@@ -1,5 +1,5 @@
 build/*
 dist/*
-covid19.egg-info/*
+covid19_big.egg-info/*
 ___pycache__/*
-covid19/__pycache__/*
+covid19_big/__pycache__/*
