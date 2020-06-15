@@ -1,0 +1,5 @@
+include covid19_big/web/*
+include covid19_big/web/assets/*
+include covid19_big/web/assets/css/*
+include covid19_big/web/assets/images/*
+include covid19_big/web/assets/js/*

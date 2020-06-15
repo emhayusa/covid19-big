@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 	
 setuptools.setup(
 	name='covid19-big',
-	version='0.1',
+	version='1.0.0',
 	author="Muhammad Hasannudin Yusa",
 	author_email="emhayusa@gmail.com",
-	description="A Covid19 package",
+	description="A Covid19 BIG package",
 	long_description=long_description,
 	long_description_content_type="text/markdown",
 	url="https://github.com/emhayusa/covid19-big",
@@ -22,6 +22,8 @@ setuptools.setup(
         'Click',
     ],
 	entry_points={
-        "console_scripts": ['covid19=covid19.main:welcome']
+        "console_scripts": ['covid19_big=covid19_big.main:welcome']
     },
+	include_package_data=True,
+	
  )
